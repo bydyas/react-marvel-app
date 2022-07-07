@@ -1,0 +1,20 @@
+@import '../../style/variables.scss';
+    
+.error-boundary {
+    padding: 15px;
+    width: 100%;
+    height: 100vh;
+    
+    h1 {
+        font-size: 10em;
+        font-weight: 700;
+        color: $main-color;
+    }
+
+    .bg-decoration {
+        position: absolute;
+        right: -0px;
+        bottom: -0px;
+        z-index: -1;
+    }
+}
