@@ -1,9 +1,17 @@
 import ErrorMessage from "../components/errorMessage/ErrorMessage";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const NoMatch = () => {
     return (
         <div>
+            <Helmet>
+                <meta
+                    name="description"
+                    content="Marvel information portal"
+                />
+                <title>Marvel | Page not found</title>
+            </Helmet>
             <ErrorMessage />
             <p style={
                 {
